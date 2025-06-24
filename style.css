@@ -1,0 +1,78 @@
+.header-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f5ff;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #9b59b6;
+  margin-bottom: 20px;
+}
+
+.date, .location {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #5d3a9b;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.party-list {
+  list-style-type: circle;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rsvp-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.rsvp-form button {
+  padding: 10px;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rsvp-form button:hover {
+  background-color: #8e44ad;
+}
+
+
